@@ -15,6 +15,18 @@
 h1,
 p,
 a {
-  color: var(--color-astro-primary);
   font-family: var(--font);
+}
+
+h1,
+h2 {
+  color: var(--color-astro-primary);
+}
+
+h3 {
+  color: var(--color-astro-secondary);
+}
+
+p {
+  color: var(--color-astro-light);
 }
