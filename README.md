@@ -17,3 +17,16 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py runserver
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## Objectifs à venir
+- 🌍 Calcul des distances planétaires
+- 🪐 Visualisation d’orbites
+- 🔭 Simulations interactives
