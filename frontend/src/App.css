@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-astro-dark: oklch(0.16 0.0393 248.16);
+  --color-astro-light: oklch(0.93 0.0334 272.79);
+  --color-astro-primary: oklch(0.76 0.0949 229.68);
+  --color-astro-secondary: oklch(0.82 0.0578 237.26);
+  --color-astro-selected: oklch(0.23 0.0495 258.69);
+
+  --color-astro-border: oklch(0.4 0.0389 243.34);
+
+  --font: "Sora";
+}
+
+h1,
+p,
+a {
+  color: var(--color-astro-primary);
+  font-family: var(--font);
+}
